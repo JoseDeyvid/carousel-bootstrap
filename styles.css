@@ -1,0 +1,39 @@
+:root {
+    --bs-navbar-brand-font-size: 12px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-title {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.disabled {
+    color: rgba(255, 255, 255, 0.25);
+    pointer-events: none;
+    cursor: default;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.form-control:focus {
+    color: #dee2e6;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+
+
+
+input[type="search"]::-webkit-search-cancel-button {
+    filter: brightness(1000%);
+  }
