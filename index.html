@@ -26,11 +26,85 @@
 
         </nav>
         <form class="d-flex" role="search">
-            <input class="form-control me-2 bg-dark border border-secondary" type="search" placeholder="Search" aria-label="Search">
+            <input class="form-control me-2 bg-dark border border-secondary" type="search" placeholder="Search"
+                aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
     </header>
-    <main></main>
+    <main>
+        <div class="carousel slide carousel-content bg-secondary d-flex justify-content-center w-100" data-bs-ride="carousel"
+            id="carouselExampleCaptions">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner w-75 d-flex pb-5">
+                <div class="carousel-item active align-self-end pb-5">
+                    <div class="d-flex flex-column align-items-start">
+                        <h2 class="text-light display-6 fw-semibold">Example headline</h2>
+                        <p class="text-light fs-5 text-secondary">Some representative placeholder content for the first
+                            slide of the carousel.</p>
+                        <button type="button" class="btn btn-primary px-3 py-2 fs-5 rounded-3">Sign up today</button>
+                    </div>
+                </div>
+                <div class="carousel-item pb-5 align-self-end">
+                    <div class="d-flex flex-column align-items-center">
+                        <h2 class="text-light display-6 fw-semibold">Another example headline.</h2>
+                        <p class="text-light fs-5 text-secondary">Some representative placeholder content for the second
+                            slide of the carousel.</p>
+                        <button type="button" class="btn btn-primary px-3 py-2 fs-5 rounded-3">Learn more</button>
+                    </div>
+                </div>
+                <div class="carousel-item pb-5 align-self-end">
+                    <div class="d-flex flex-column align-items-end">
+                        <h2 class="text-light display-6 fw-semibold">One more for good measure.
+                        </h2>
+                        <p class="text-light fs-5 text-secondary">Some representative placeholder content for the third
+                            slide of this carousel.</p>
+                        <button type="button" class="btn btn-primary px-3 py-2 fs-5 rounded-3">Browse gallery</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+        <div class="container mt-5 d-flex grid text-center px-5 pb-5">
+            <div class="d-flex flex-column justify-content-center align-items-center col-4">
+                <div class="bg-secondary rounded-circle" style="width: 140px; height: 140px;">
+                </div>
+                <h2>Heading</h2>
+                <p>Some representative placeholder content for the three columns of text below the carousel. This is the
+                    first column.</p>
+                <button type="button" class="btn btn-secondary">View details »</button>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center col-4">
+                <div class="bg-secondary rounded-circle" style="width: 140px; height: 140px;">
+                </div>
+                <h2>Heading</h2>
+                <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second
+                    column.</p>
+                <button type="button" class="btn btn-secondary">View details »</button>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center col-4">
+                <div class="bg-secondary rounded-circle" style="width: 140px; height: 140px;">
+                </div>
+                <h2>Heading</h2>
+                <p>And lastly this, the third column of representative placeholder content.</p>
+                <button type="button" class="btn btn-secondary">View details »</button>
+            </div>
+        </div>
+        <hr class="container mt-5 mb-5">
+    </main>
     <footer>
         <!-- place footer here -->
     </footer>

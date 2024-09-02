@@ -36,4 +36,14 @@
 
 input[type="search"]::-webkit-search-cancel-button {
     filter: brightness(1000%);
-  }
+}
+
+.carousel-content {
+    width: 100vw;
+    height: 50vh;
+}
+
+.justify-self-center {
+    justify-self: end;
+    align-self: self-end;
+}
